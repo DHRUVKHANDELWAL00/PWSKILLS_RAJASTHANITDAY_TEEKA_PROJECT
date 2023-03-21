@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/reg.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information and get access to some premium vaccine services!</p>
+    <form method="post" action="/">
+      <section id="cta">
+        <fieldset>
+          <label for="first-name">Enter First Name <input id="first-name" name="fname" type="text" required /></label>
+          <label for="first-name">Enter Last Name <input id="last-name" name="lname" type="text" required /></label>
+          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+          <label for="new-password">Create a New Password: <input id="new-password" name="newpassword" type="password" required /></label>
+        </fieldset>
+<!--pattern="[a-z0-5]{8,}-->
+        <fieldset>
+          <label for="profile-picture">Upload ur Photo <input id="profile-picture" type="file" name="file" /></label>
+          <label for="age">Why would you join us? <input id="age" type="number" name="age" min="13" max="120" /></label>
+          <label for="referrer">How did you hear about us?
+            <select id="referrer" name="referrer">
+              <option value="">(select one)</option>
+              <option value="1">News</option>
+              <option value="2">YouTube Channel</option>
+              <option value="3">Forum</option>
+              <option value="4">Other</option>
+            </select>
+          </label>
+
+        </fieldset>
+        <fieldset>
+          <label for="Gender"
+          <input id="Gender" type="radio" name="Gender" class="inline" /> Male
+          <input id="Gender" type="radio" name="Gender" class="inline" /> Female</label>
+          <label for="terms-and-conditions">
+            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+          </label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </section>
+
+    </form>
+  </body>
+</html>

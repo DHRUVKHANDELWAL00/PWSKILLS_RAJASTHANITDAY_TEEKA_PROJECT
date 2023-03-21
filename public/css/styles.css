@@ -1,0 +1,159 @@
+
+*{
+  font-family:  'Montserrat', sans-serif;
+}
+nav{
+  overflow:hidden;
+  position:fixed;
+}
+#title{
+  background-color: #00989f;
+  padding: 40px;
+}
+.cont{
+  margin-top: 50px;
+}
+.cont-head{
+  margin-bottom: 30px;
+}
+#title{
+  margin-bottom: 30px;
+}
+#benefits{
+  margin-top: 50px;
+  margin-bottom:100px;
+}
+.benefits-head, .map-head{
+  text-align: center;
+}
+.head-para{
+  margin-bottom: 40px;
+}
+.benefits-head-2{
+  padding:50px;
+  margin-bottom:50px;
+}
+.navbar-brand{
+  font-family: 'Lato', sans-serif;
+  color:grey;
+  font-size: 100px;
+  margin: 0px;
+}
+.img-ho{
+  text-align:center;
+  align-items: center;
+  margin:20px;
+}
+,benefits-hi{
+  margin:15px;
+}
+#adult{
+  background-color: #00989f;
+  heigth:2rem;
+  padding: 50px;
+}
+.clicker{
+  margin-top:100px;
+}
+.img-adult{
+  padding-top:70px;
+}
+#feature-cards{
+  height: 1500px;
+  background-color: #00989f;
+}
+.card{
+  height: 500px;
+}
+#ensures{
+
+  margin-top: 50px;
+  margin-bottom:100px;
+}
+.ensure{
+    background-image: url("img/download.jpg");
+}
+.ensures-head{
+  text-align: center;
+}
+.ensures-head-2{
+  padding:50px;
+  margin-bottom:50px;
+}
+
+.rectangle{
+  background-color: #00989f;
+  display: flex;
+  height: 50px;
+  width:100px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5%
+}
+#map{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding:50px;
+  height: 500px;
+}
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+    background-color: #00989f;
+
+}
+.fea-btn{
+  text-align: center;
+  margin:auto 100px;
+}
+.card{
+
+}
+.header-price{
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+.card-title, .card-text{
+  text-align: center;
+}
+.card-header{
+
+}
+.card-body{
+  height:300px;
+}
+.card-body:hover{
+  background-color: #00989f;
+}
+
+
+.bold{
+  font-weight: bold;
+}
+#partners{
+  padding:50px;
+  margin:50 20 20 50px;
+  text-align: center;
+}
+
+#newsletter{
+  background-color: #00989f;
+  padding:30px;
+}
+#associated{
+  margin: 100px 50px 50px 100px;
+}
+.associated-info{
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+#newsletter{
+  height: 200px;
+
+}
+.padder{
+  margin:60px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "building hackathon project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHRUVKHANDELWAL00/project-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DHRUVKHANDELWAL00/project-1/issues"
+  },
+  "homepage": "https://github.com/DHRUVKHANDELWAL00/project-1#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "mongoose": "^7.0.2"
+  }
+}
